@@ -4,8 +4,9 @@ const Search = () => {
     const [textValue,setTextvalue] = useState("") ;
     
   return (
+    
     <div>
-        <input type="text" />
+        <input type="text" value={textValue} />
     </div>
   )
 }
